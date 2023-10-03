@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 500;
+}
+.logo {
+    height: 75px;
+    background-color: #F1F7FF;
+    box-shadow: 0px 10px 10px rgb(121 121 121 / 12%);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000000000;
+}
+.adoff-logo {
+    padding-top: 20px;
+    width: 100px;
+    text-align:center;
+    display: block;
+    margin: 0 auto 0em auto;
+}
+
+
+/* This css code for the preview section */
+.main-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 50px auto 20px auto;
+}
+#main-height-preview {
+    margin-top: 100px;
+}
+/* This css code for the preview section */
+
+/* This css code for the code preview section */
+.main-code-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 0px auto 20px auto;
+}
+/* This css code for the code preview section */
+
+/* This css code for the copy button */
+.all-copy-btn {
+    height: 30px;
+    width: 120px;
+    border: hidden;
+    background-color:#0587ff;
+    color:white;
+    display: block;
+    margin: 0px auto 0px auto;
+    cursor: pointer;
+}
+.all-copy-btn:hover {
+    background-color: transparent;
+    border: 1px solid #0587ff;
+    color: #0587ff;
+    transition: 0.3s;
+}
+.all-copy-code-area {
+    height: 0px;
+    width: 0px;
+    resize: none;
+}
+/* This css code for the copy button */
+
+
+
+/* Version 1.0 */
+
+
+/* form01 */
+.boxs-form01 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0;
+    background-color: #c9e5e2;
+}
+.box-form01 {
+    flex: 1;
+    /*border: 1px solid #666;*/
+    margin: 0px;
+    padding: 10px;
+    height: 500px;
+    transition: 0.3s;
+}
+.box-form01:first-child {
+    margin-left: 0;
+    padding: 0px;
+}
+
+/*first section*/
+.images1-form01 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    text-align:center;
+    display: block;
+    margin: 0 auto 1em auto;
+    transition: 0.5s;
+}
+
+.images-form01 {
+    height: 320px;
+    width: 320px;
+    border-radius: 25px;
+    text-align:center;
+    display: block;
+    margin: 0 auto 1em auto;
+    margin-top: 85px;
+    padding: 7px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.images-form01 .images1-form01:hover {
+    height: 320px;
+    width: 320px;
+    transition: 0.5s;
+}
+/*first section*/
+
+/*second section*/
+.title-form01 {
+    color: #001C44;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.in-btn-form01 {
+    text-align:center;
+    display: block;
+    margin: 0 auto 1em auto;
+    margin-top: 23px;
+}
+.name-form01, .email-form01, .message-form01 {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    padding: 12px;
+    margin: 10px;
+    color: #001C44;
+}
+.message-form01 {
+    padding-bottom: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    resize: none;
+}
+.message-form01::-webkit-scrollbar {
+    width: 2px;
+    background-color: #001C44;
+  }
+  .message-form01::-webkit-scrollbar-thumb {
+    background: #00B7C3;
+  }
+.btn-form01 {
+    background-color: #00B7C3;
+    color: white;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.btn-form01:hover {
+    background-color: #09838b;
+    transition: 0.3s;
+}
+/* second section*/
+
+@media screen and (max-width: 980px) {
+    .boxs-form01 .box-form01 {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .boxs-form01 .box-form01:last-child {
+        flex-basis: 100;
+        margin: 0;
+    }
+    .boxs-form01 .box-form01:nth-last-child(2) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 680px) {
+    .boxs-form01 .box-form01 {
+        flex-basis: 100%;
+        margin: 0 0 5px;
+    }
+    .images1-form01 {
+        height: 230px;
+        width: 230px;
+    }
+    .images-form01 {
+        height: 250px;
+        width: 250px;
+    }
+    .images-form01 .images1-form01:hover {
+        height: 260px;
+        width: 260px;
+        transition: 0.5s;
+    }
+}
+/* form01 */
+
+
+/* form001 */
+.bg-img-form001 {
+    background-image: url("Images/form-img001.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 550px;
+}
+.bg-color-form001 {
+    background-image: linear-gradient(103.7deg, rgba(250, 0, 255, 0.3) 0%, rgba(20, 0, 255, 0.3) 100%);
+    height: 100%;
+    border: 0.1px solid transparent;
+}
+.main-form001 {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    height: 480px;
+    margin-top: 35px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+.main-heading-form001 {
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+.full-name-form001, .email-form001, .massage-form001 {
+    height: 30px;
+    width: 80%;
+    padding: 0px 5px 0px 10px;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    background-color: #EEECEC;
+    transition: 0.3s;
+}
+.full-name-form001:hover, .email-form001:hover, .massage-form001:hover {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+.massage-form001 {
+    height: 133px;
+    resize: none;
+    padding-top: 5px;
+}
+.submit-form001 {
+    font-size: 13px;
+    height: 30px;
+    width: 30%;
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(250, 0, 255);
+    color: white;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.submit-form001:hover {
+    background-color: rgba(250, 0, 255, 0.6);
+    transition: 0.3s;
+}
+
+@media (max-width: 680px) {
+    .bg-img-form001 {
+        height: 450px;
+    }
+    .main-form001 {
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        transition: 0.9s;
+    }
+}
+/* form001 */
+
+
+/* form31 */
+.bg-color-form31 {
+    background-color: #E9EAEA;
+    height: 550px;
+    border: 1px solid #E9EAEA;
+}
+.form-bg-form31 {
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 73px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.15);
+    transition: 1s;
+}
+.main-heading-form31 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #182C61;
+}
+.input-div-form31 {
+    width: fit-content;
+    margin: 20px auto 0px auto;
+}
+.first-name-form31, .email-form31 {
+    margin-right: 20px;
+}
+.first-name-form31, .last-name-form31, .email-form31, .phone-form31 {
+    background-color: #EDEDED;
+    color: #797272;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.submit-form31 {
+    background-color: #182C61;
+    color: white;
+    outline: none;
+    border: 0px solid transparent;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto 0px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-form31:hover {
+    background-color: #1b3b8f;
+    transition: 0.3s;
+}
+
+@media (max-width: 980px) {
+    .form-bg-form31 {
+        height: 445px;
+        margin-top: 52px;
+        transition: 1s;
+    }
+    .input-div-form31 {
+        width: 100%;
+        margin: auto;
+    }
+    .first-name-form31, .last-name-form31, .email-form31, .phone-form31 {
+        display: block;
+        margin: 15px auto 0px auto;
+        width: 80%;
+    }
+}
+@media (max-width: 680px) {
+    .form-bg-form31 {
+        width: 90%;
+        transition: 1s;
+    }
+    .main-heading-form31 {
+        padding-top: 45px;
+    }
+}
+/* form31 */
+
+
+/* form41 */
+.main-form41 {
+    background-color: #dde1e7;
+    border: 2px solid #dde1e7;
+    height: 600px;
+}
+.main-form-form41 {
+    background-color: #dde1e7;
+    height: 500px;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+    transition: 1s;
+}
+.main-heading-form41 {
+    text-align: center;
+    padding-top: 30px;
+    color: #B2B2B2;
+}
+.name-form41, .email-form41, .message-form41 {
+    background-color: #dde1e7;
+    color: #B2B2B2;
+    font-size: 15px;
+    height: 40px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    display: block;
+    margin: 30px auto 0px auto;
+    padding: 5px 10px 5px 15px;
+    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.email-form41 {
+    margin-top: 10px;
+}
+.message-form41 {
+    font-size: 15px;
+    resize: none;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.message-form41::-webkit-scrollbar {
+    display: none;
+}
+.name-form41::placeholder, .email-form41::placeholder, .message-form41::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #B2B2B2;
+}
+.submit-form41 {
+    background-color: #5FA8FF;
+    color: white;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border: none;border-radius: 50px;
+    display: block;
+    margin: 20px auto 0px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-form41:hover {
+    background-color: #2f7cdb;
+    transition: 0.3s;
+}
+
+@media (max-width: 980px) {
+    .main-form-form41 {
+        width: 80%;
+        transition: 1s;
+    }
+}
+@media (max-width: 680px) {
+    .main-form-form41 {
+        width: 90%;
+        transition: 1s;
+    }
+    .name-form41, .email-form41, .message-form41 {
+        width: 80%;
+    }
+}
+/* form41 */
+
+
+/* form51 */
+.main-form51 {
+    background-color: #393A3E;
+    border: 1px solid transparent;
+    height: 600px;
+}
+.round1-form51 {
+    height: 250px;
+    width: 250px;
+    border-radius: 0% 0% 100% 0%;
+    background-color: #393A3E;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 1;
+}
+.round2-form51 {
+    height: 250px;
+    width: 250px;
+    border-radius: 100% 0% 0% 0%;
+    background-color: #393A3E;
+    box-shadow: -4px -4px 10px rgba(136, 136, 136, 0.25);
+    float: right;
+    margin-top: 350px;
+    position: relative;
+    z-index: 2;
+}
+.main-form-form51 {
+    height: 500px;
+    width: 70%;
+    background-color: #393A3E;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #1D1E20, -4px -4px 15px rgba(100, 100, 100, 0.31);
+    position: relative;
+    z-index: 3;
+    margin: 50px auto 0px auto;
+    transition: 1s;
+}
+.main-heading-form51 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+}
+.name-form51, .email-form51, .message-form51 {
+    height: 30px;
+    width: 50%;
+    background-color: #393A3E;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    position:  relative;
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 5px 15px 5px 20px;
+    box-shadow: inset -3px -3px 7px rgba(100, 100, 100, 0.31), inset 3px 3px 5px #1D1E20;
+}
+.email-form51 {
+    margin-top: 10px;
+}
+.message-form51 {
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.name-form51::placeholder, .email-form51::placeholder, .message-form51::placeholder {
+    color: rgb(153, 153, 153);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.submit-form51 {
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF1D45;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0px auto;
+    transition: 0.3s;
+}
+.submit-form51:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #FF1D45;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 980px) {
+    .main-form-form51 {
+        width: 90%;
+        transition: 1s;
+    }
+    .round2-form51 {
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+    .main-form51 {
+        height: 530px;
+    }
+    .main-form-form51 {
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        box-shadow: none;
+        border-radius: 0px;
+        transition: 1s;
+    }
+    .round1-form51 {
+        display: none;
+    }
+    .main-heading-form51 {
+        padding-top: 50px;
+    }
+    .name-form51 {
+        margin-top: 30px;
+    }
+    .name-form51, .email-form51, .message-form51 {
+        width: 80%;
+    }
+}
+/* form51 */
+
+
+/* Version 1.0 */

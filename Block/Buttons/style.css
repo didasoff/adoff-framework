@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 500;
+}
+.logo {
+    height: 75px;
+    background-color: #F1F7FF;
+    box-shadow: 0px 10px 10px rgb(121 121 121 / 12%);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000000000;
+}
+.adoff-logo {
+    padding-top: 20px;
+    width: 100px;
+    text-align:center;
+    display: block;
+    margin: 0 auto 0em auto;
+}
+
+
+/* This css code for the preview section */
+.main-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 50px auto 20px auto;
+}
+
+#main-height-preview {
+    margin-top: 100px;
+}
+/* This css code for the preview section */
+
+/* This css code for the code preview section */
+.main-code-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 0px auto 20px auto;
+}
+/* This css code for the code preview section */
+
+/* This css code for the copy button */
+.all-copy-btn {
+    height: 30px;
+    width: 120px;
+    border: hidden;
+    background-color:#0587ff;
+    color:white;
+    display: block;
+    margin: 0px auto 0px auto;
+    cursor: pointer;
+}
+.all-copy-btn:hover {
+    background-color: transparent;
+    border: 1px solid #0587ff;
+    color: #0587ff;
+    transition: 0.3s;
+}
+.all-copy-code-area {
+    height: 0px;
+    width: 0px;
+    resize: none;
+}
+/* This css code for the copy button */
+
+
+
+/* Version 1.0 */
+
+
+/* all btn margin */
+.all-btn {
+    /*background-color: green;*/
+    width: fit-content;
+    margin: auto;
+}
+/* all btn margin */
+
+
+/* button01 */
+/*Btn1*/
+.btn1-button01 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #001c44;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn1-button01:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #001c44;
+    color: #001c44;
+    transition: 0.3s;
+}
+/*Btn1*/
+/*Btn2*/
+.btn2-button01 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #a8a9ee;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn2-button01:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #a8a9ee;
+    color: #a8a9ee;
+    transition: 0.3s;
+}
+/*Btn2*/
+/*Btn3*/
+.btn3-button01 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #899198;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn3-button01:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #899198;
+    color: #899198;
+    transition: 0.3s;
+}
+/*Btn3*/
+/*Btn4*/
+.btn4-button01 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #2791ff;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn4-button01:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #2791ff;
+    color: #2791ff;
+    transition: 0.3s;
+}
+/*Btn4*/
+/*Btn5*/
+.btn5-button01 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #f53678;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn5-button01:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #f53678;
+    color: #f53678;
+    transition: 0.3s;
+}
+/*Btn5*/
+/* button 01 */
+
+
+/* button001 */
+/*btn1*/
+.btn1-button001 {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    background-size: 200%;
+    transition: 0.3s;
+    background-image: linear-gradient(to left top, #000000, #505050, #000000);
+}
+
+  .btn1-button001:hover {
+    background-position: right;
+}
+/*btn1*/
+/*btn2*/
+.btn2-button001 {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    background-size: 200%;
+    transition: 0.3s;
+    background-image: linear-gradient(to left top, #4f23bd, #8365d0, #4f23bd);
+}
+
+  .btn2-button001:hover {
+    background-position: right;
+}
+/*btn2*/
+/*btn3*/
+.btn3-button001 {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    background-size: 200%;
+    transition: 0.3s;
+    background-image: linear-gradient(to left top, #ff0257, #d40047, #ff0055);
+}
+
+  .btn3-button001:hover {
+    background-position: right;
+}
+/*btn3*/
+/*btn4*/
+.btn4-button001 {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    background-size: 200%;
+    transition: 0.3s;
+    background-image: linear-gradient(to left top, #56cb92, #505050, #56cb92);
+}
+
+  .btn4-button001:hover {
+    background-position: right;
+}
+/*btn4*/
+/*btn5*/
+.btn5-button001 {
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    background-size: 200%;
+    transition: 0.3s;
+    background-image: linear-gradient(to left top, #BC153B, #e4a1b0, #BC153B);
+}
+
+  .btn5-button001:hover {
+    background-position: right;
+}
+/*btn5*/
+/* button001 */
+
+
+/* button31 */
+/* this css code for the all button */
+.full-button31 {
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+    margin: auto;
+}
+/* this css code for the all button */
+/*Btn1*/
+.btn1-button31 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn1-button31 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn1-button31 button:hover {
+    background-color: transparent;
+    color: #34495e;
+    border: 1px solid #34495e;
+    transition: 0.3s;
+}
+/*Btn1*/
+/*Btn2*/
+.btn2-button31 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn2-button31 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn2-button31 button:hover {
+    background-color: transparent;
+    color: #8e44ad;
+    border: 1px solid #8e44ad;
+    transition: 0.3s;
+}
+/*Btn2*/
+/*Btn3*/
+.btn3-button31 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn3-button31 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn3-button31 button:hover {
+    background-color: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    transition: 0.3s;
+}
+/*Btn3*/
+/*Btn4*/
+.btn4-button31 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn4-button31 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn4-button31 button:hover {
+    background-color: transparent;
+    color: #f39c12;
+    border: 1px solid #f39c12;
+    transition: 0.3s;
+}
+/*Btn4*/
+/*Btn5*/
+.btn5-button31 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn5-button31 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn5-button31 button:hover {
+    background-color: transparent;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    transition: 0.3s;
+}
+/*Btn5*/
+/* This css code is for responsive */
+@media (max-width: 680px) {
+    .full-button31 {
+        display: block;
+        margin: auto;
+    }
+    .full-button31 a {
+        margin: 5px;
+    }
+}
+/* This css code is for responsive */
+/* button31 */
+
+
+/* button41 */
+/* this css code for the all button */
+.full-button41 {
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+    margin: auto;
+}
+/* this css code for the all button */
+/*Btn1*/
+.btn1-button41 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn1-button41 button {
+    background-color: #130f40;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn1-icon-button41 {
+    background-color: #30336b;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    transition: 0.3s;
+}
+.btn1-text-button41 {
+    padding: 20px 15px 20px 10px;
+    transition: 0.3s;
+}
+.btn1-button41 button:hover {
+    background-color: transparent;
+    border: 1px solid #30336b;
+    color: #30336b;
+    transition: 0.3s;
+}
+.btn1-button41 button:hover .btn1-icon-button41 {
+    color: white;
+    transition: 0.3s;
+}
+/*Btn1*/
+/*Btn2*/
+.btn2-button41 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn2-button41 button {
+    background-color: #be2edd;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn2-icon-button41 {
+    background-color: #e056fd;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    transition: 0.3s;
+}
+.btn2-text-button41 {
+    padding: 20px 15px 20px 10px;
+    transition: 0.3s;
+}
+.btn2-button41 button:hover {
+    background-color: transparent;
+    border: 1px solid #e056fd;
+    color: #e056fd;
+    transition: 0.3s;
+}
+.btn2-button41 button:hover .btn2-icon-button41 {
+    color: white;
+    transition: 0.3s;
+}
+/*Btn2*/
+/*Btn3*/
+.btn3-button41 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn3-button41 button {
+    background-color: #4834d4;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn3-icon-button41 {
+    background-color: #686de0;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    transition: 0.3s;
+}
+.btn3-text-button41 {
+    padding: 20px 15px 20px 10px;
+    transition: 0.3s;
+}
+.btn3-button41 button:hover {
+    background-color: transparent;
+    border: 1px solid #686de0;
+    color: #686de0;
+    transition: 0.3s;
+}
+.btn3-button41 button:hover .btn3-icon-button41 {
+    color: white;
+    transition: 0.3s;
+}
+/*Btn3*/
+/*Btn4*/
+.btn4-button41 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn4-button41 button {
+    background-color: #eb4d4b;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn4-icon-button41 {
+    background-color: #ff7979;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    transition: 0.3s;
+}
+.btn4-text-button41 {
+    padding: 20px 15px 20px 10px;
+    transition: 0.3s;
+}
+.btn4-button41 button:hover {
+    background-color: transparent;
+    border: 1px solid #ff7979;
+    color: #ff7979;
+    transition: 0.3s;
+}
+.btn4-button41 button:hover .btn4-icon-button41 {
+    color: white;
+    transition: 0.3s;
+}
+/*Btn4*/
+/*Btn5*/
+.btn5-button41 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-right: 20px;
+}
+.btn5-button41 button {
+    background-color: #f0932b;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn5-icon-button41 {
+    background-color: #ffbe76;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    transition: 0.3s;
+}
+.btn5-text-button41 {
+    padding: 20px 15px 20px 10px;
+    transition: 0.3s;
+}
+.btn5-button41 button:hover {
+    background-color: transparent;
+    border: 1px solid #ffbe76;
+    color: #ffbe76;
+    transition: 0.3s;
+}
+.btn5-button41 button:hover .btn5-icon-button41 {
+    color: white;
+    transition: 0.3s;
+}
+/*Btn5*/
+/* This css code is for responsive */
+@media (max-width: 680px) {
+    .full-button41 {
+        display: block;
+        margin: auto;
+    }
+    .full-button41 a {
+        margin: 5px;
+    }
+}
+/* This css code is for responsive */
+/* button41 */
+
+
+/* button51 */
+/*Btn1*/
+.btn1-div-button51 {
+    background-color: #E2E2E2;
+    padding: 30px;
+}
+.btn1-div-button51 p {
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+.btn1-button51 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.btn1-button51 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 30px;
+    background-color: #E2E2E2;
+    color: #7B7B7B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px #FFFFFF, 2px 2px 5px rgba(52, 52, 52, 0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn1-button51 button:hover {
+    box-shadow: inset 2px 2px 5px rgba(52, 52, 52, 0.15), inset -2px -2px 5px #FFFFFF;
+    transition: 0.3s;
+}
+/*Btn1*/
+/*Btn2*/
+.btn2-div-button51 {
+    background-color: #2ed573;
+    padding: 30px;
+}
+.btn2-div-button51 p {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.btn2-button51 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.btn2-button51 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 30px;
+    background-color: #2ed573;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px #3DFF8D, 2px 2px 5px rgba(52, 52, 52, 0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn2-button51 button:hover {
+    box-shadow: inset 2px 2px 5px rgba(52, 52, 52, 0.15), inset -2px -2px 5px #3DFF8D;
+    transition: 0.3s;
+}
+/*Btn2*/
+/*Btn3*/
+.btn3-div-button51 {
+    background-color: #3742fa;
+    padding: 30px;
+}
+.btn3-div-button51 p {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.btn3-button51 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.btn3-button51 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 30px;
+    background-color: #3742fa;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px #4954FF, 2px 2px 5px rgba(52, 52, 52, 0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn3-button51 button:hover {
+    box-shadow: inset 2px 2px 5px rgba(52, 52, 52, 0.15), inset -2px -2px 5px #4954FF;
+    transition: 0.3s;
+}
+/*Btn3*/
+/*Btn4*/
+.btn4-div-button51 {
+    background-color: #ff4757;
+    padding: 30px;
+}
+.btn4-div-button51 p {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.btn4-button51 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.btn4-button51 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 30px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px #FF5F6D, 2px 2px 5px rgba(52, 52, 52, 0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn4-button51 button:hover {
+    box-shadow: inset 2px 2px 5px rgba(52, 52, 52, 0.15), inset -2px -2px 5px #FF5F6D;
+    transition: 0.3s;
+}
+/*Btn4*/
+/*Btn5*/
+.btn5-div-button51 {
+    background-color: #2f3542;
+    padding: 30px;
+}
+.btn5-div-button51 p {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.btn5-button51 {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.btn5-button51 button {
+    height: 40px;
+    width: fit-content;
+    padding: 0px 30px;
+    background-color: #2f3542;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px #40444E, 2px 2px 5px rgba(3, 3, 3, 0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn5-button51 button:hover {
+    box-shadow: inset 2px 2px 5px rgba(3, 3, 3, 0.15), inset -2px -2px 5px #40444E;
+    transition: 0.3s;
+}
+/*Btn5*/
+/* button51 */
+
+
+/* Version 1.0 */

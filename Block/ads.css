@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F7FF;
+}
+
+.main-google-ads {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.main-google-ads .title-div {
+    background-color: #1E2761;
+    padding: 20px;
+    text-align: center;
+    color: #F1F7FF;
+    font-size: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-google-ads .ads-div {
+    height: auto;
+    width: auto;
+    border: 2px solid #434C88;
+    border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 680px) {
+    .main-google-ads {
+        width: auto;
+    }
+    .main-google-ads .title-div, .main-google-ads .ads-div {
+	border-radius: 0px;
+    }
+}

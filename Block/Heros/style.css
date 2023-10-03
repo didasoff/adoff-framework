@@ -1,0 +1,1235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 500;
+}
+
+.logo {
+    height: 75px;
+    background-color: #F1F7FF;
+    box-shadow: 0px 10px 10px rgb(121 121 121 / 12%);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000000000;
+}
+
+.adoff-logo {
+    padding-top: 20px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 0em auto;
+}
+
+
+/* This css code for the preview section */
+
+.main-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 50px auto 20px auto;
+}
+
+#main-height-preview {
+    margin-top: 100px;
+}
+
+
+/* This css code for the preview section */
+
+
+/* This css code for the code preview section */
+
+.main-code-preview {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    margin: 0px auto 20px auto;
+}
+
+
+/* This css code for the code preview section */
+
+
+/* This css code for the copy button */
+
+.all-copy-btn {
+    height: 30px;
+    width: 120px;
+    border: hidden;
+    background-color: #0587ff;
+    color: white;
+    display: block;
+    margin: 0px auto 0px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.all-copy-btn:hover {
+    background-color: transparent;
+    border: 1px solid #0587ff;
+    color: #0587ff;
+    transition: 0.3s;
+}
+
+.all-copy-code-area {
+    height: 0px;
+    width: 0px;
+    resize: none;
+}
+
+
+/* This css code for the copy button */
+
+
+/* This css code for js show & connector */
+
+.main--js-file-show-and-connector {
+    border: 1px solid transparent;
+    margin: 0px auto 20px auto;
+    padding: 5px;
+    width: 90%;
+}
+
+.main--js-file-show-and-connector .text {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FB4340;
+}
+/* This css code for js show & connector */
+
+
+/* Version 1.0 */
+
+
+/* hero01 */
+
+.columns-hero01 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0;
+    background-color: rgb(21, 6, 44);
+    z-index: -1;
+}
+
+.column-hero01 {
+    flex: 1;
+    /*border: 1px solid #666;*/
+    margin: 2px;
+    padding: 10px;
+    height: 500px;
+    transition: 0.3s;
+}
+
+.column-hero01:first-child {
+    margin-left: 0;
+}
+
+.header-hero01 {
+    color: #FB4340;
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.tagline-hero01 {
+    color: rgb(170, 170, 170);
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.button-hero01 {
+    height: 30px;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: white;
+    outline: none;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    transition: 0.3s;
+}
+
+.button-hero01:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    transition: 0.3s;
+}
+
+.images1-hero01 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    text-align: center;
+    display: block;
+    margin: 0 auto 1em auto;
+    transition: 0.5s;
+}
+
+.images-hero01 {
+    height: 320px;
+    width: 320px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 1em auto;
+    margin-top: 85px;
+    padding: 7px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.images-hero01 .images1-hero01:hover {
+    height: 320px;
+    width: 320px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 980px) {
+    .columns-hero01 .column-hero01 {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .columns-hero01 .column-hero01:last-child {
+        flex-basis: 100;
+        margin: 0;
+    }
+    .columns-hero01 .column-hero01:nth-last-child(2) {
+        margin-right: 0;
+    }
+    .header-hero01 {
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .tagline-hero01 {
+        margin-left: 40px;
+    }
+    .button-hero01 {
+        margin-left: 40px;
+    }
+    .images1-hero01 {
+        height: 250px;
+        width: 250px;
+    }
+    .images-hero01 {
+        height: 270px;
+        width: 270px;
+    }
+    .images-hero01 .images1-hero01:hover {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .columns-hero01 .column-hero01 {
+        flex-basis: 100%;
+        margin: 0 0 5px;
+    }
+    .column-hero01 {
+        height: 300px;
+    }
+    .header-hero01 {
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        margin: 0 auto 0em auto;
+        margin-top: 80px;
+    }
+    .tagline-hero01 {
+        text-align: center;
+        display: block;
+        margin: 0 auto 1em auto;
+        margin-top: 3px;
+    }
+    .button-hero01 {
+        text-align: center;
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+    .images-hero01 {
+        margin-top: -45px;
+        height: 270px;
+        width: 270px;
+    }
+}
+
+
+/* hero01 */
+
+
+/* hero001 */
+
+.main-hero001 {
+    background-image: url('Images/hero001.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.mains-hero001 {
+    background-image: linear-gradient(180deg, #343434 0%, rgba(79, 35, 189, 0.56) 50%);
+    height: 100%;
+    width: 100%;
+}
+
+.heading-hero001 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 220px;
+    text-transform: uppercase;
+}
+
+.tagline-hero001 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.full-button-hero001 {
+    text-align: center;
+    display: block;
+    margin: 0em auto 0em auto;
+    margin-top: 20px;
+}
+
+.button-hero001 {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: white;
+    color: #343434;
+    transition: 0.3s;
+}
+
+.button-hero001:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    transition: 0.3s;
+}
+
+@media (max-width: 680px) {
+    .heading-hero001 {
+        font-size: 38px;
+    }
+    .tagline-hero001 {
+        font-size: 15px;
+    }
+}
+
+
+/* hero001 */
+
+
+/* hero31*/
+
+.full-boxs-hero31 {
+    padding: 0px;
+    margin: 0px auto;
+    background-color: #404040;
+}
+
+.boxs-hero31 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0;
+}
+
+.box-hero31 {
+    flex: 1;
+    /* border: 1px solid #666; */
+    margin: 0px;
+    padding: 10px;
+    height: 600px;
+    transition: 0.3s;
+}
+
+.box-hero31:first-child {
+    margin-left: 0;
+    padding-left: 50px;
+}
+
+.main-heading-hero31 {
+    color: white;
+    font-size: 35px;
+    margin-top: 170px;
+}
+
+.para-hero31 {
+    margin-top: 20px;
+    color: white;
+}
+
+.email-hero31 {
+    margin-top: 20px;
+    height: 35px;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.submit-btn-hero31 {
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: #5585FF;
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.submit-btn-hero31:hover {
+    background-color: #46557b;
+    transition: 0.3s;
+}
+
+.main-social-hero31 {
+    display: flex;
+    margin-top: 200px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social1-hero31,
+.social2-hero31,
+.social3-hero31 {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.social1-hero31 {
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-top: 10%;
+    background-color: #6E5494;
+    animation-name: social1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.social2-hero31 {
+    padding-top: 18%;
+    background-color: #487BFF;
+    animation-name: social2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.social3-hero31 {
+    padding-top: 18%;
+    background-color: #86C5FF;
+    animation-name: social3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes social1 {
+    0% {
+        background-color: #6E5494;
+        color: white;
+    }
+    50% {
+        background-color: transparent;
+        color: transparent;
+    }
+    100% {
+        background-color: #6E5494;
+        color: white;
+    }
+}
+
+@keyframes social2 {
+    0% {
+        background-color: #487BFF;
+        color: white;
+    }
+    50% {
+        background-color: transparent;
+        color: transparent;
+    }
+    100% {
+        background-color: #487BFF;
+        color: white;
+    }
+}
+
+@keyframes social3 {
+    0% {
+        background-color: #86C5FF;
+        color: white;
+    }
+    50% {
+        background-color: transparent;
+        color: transparent;
+    }
+    100% {
+        background-color: #86C5FF;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .boxs-hero31 .box-hero31 {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .boxs-hero31 .box-hero31:last-child {
+        flex-basis: 100;
+        margin: 0;
+    }
+    .boxs-hero31 .box-hero31:nth-last-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .boxs-hero31 .box-hero31 {
+        flex-basis: 100%;
+        margin: 0 0 0px;
+    }
+    .box-hero31:first-child {
+        padding-left: 10px;
+        height: 500px;
+    }
+    .boxs-hero31 .box-hero31:last-child {
+        height: 300px;
+    }
+    .main-heading-hero31 {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 28px;
+    }
+    .para-hero31 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .email-hero31 {
+        width: 80%;
+        display: block;
+        margin: 3em auto 0em auto;
+    }
+    .submit-btn-hero31 {
+        display: block;
+        margin: 1em auto 0em auto;
+    }
+    .main-social-hero31 {
+        margin-top: 50px;
+    }
+}
+
+
+/* hero31*/
+
+
+/* hero41 */
+
+.main-div-hero41 {
+    background-color: rgb(22, 22, 22);
+    /*background-image: linear-gradient(to top left, #474747, #0C0C0C);*/
+    height: 600px;
+    padding: 10px;
+}
+
+.main-heading-hero41 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.txt-typE-hero41 {
+    color: #13B8FF;
+}
+
+.main-tagline-hero41 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #B9B9B9;
+}
+
+.main-button-hero41 {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.button1-hero41,
+.button2-hero41 {
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #13B8FF;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button2-hero41 {
+    background-color: #FF3E3E;
+}
+
+.button1-hero41:hover {
+    background-color: transparent;
+    border: 2px solid #13B8FF;
+    transition: 0.3s;
+}
+
+.button2-hero41:hover {
+    background-color: transparent;
+    border: 2px solid #FF3E3E;
+    transition: 0.3s;
+}
+
+.main-social-hero41 {
+    letter-spacing: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-social-hero41,
+.social-1-hero41,
+.social-2-hero41,
+.social-3-hero41,
+.social-4-hero41,
+.social-5-hero41 {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-1-hero41:hover {
+    color: #8F40C0;
+    transition: 0.3s;
+}
+
+.social-2-hero41:hover {
+    color: #5485E9;
+    transition: 0.3s;
+}
+
+.social-3-hero41:hover {
+    color: #00ACEE;
+    transition: 0.3s;
+}
+
+.social-4-hero41:hover {
+    color: #BC2A8D;
+    transition: 0.3s;
+}
+
+.social-5-hero41:hover {
+    color: #0e76a8;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 680px) {
+    .main-heading-hero41 {
+        font-size: 30px;
+    }
+    .main-tagline-hero41 {
+        font-size: 13px;
+    }
+    .main-button-hero41 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .button1-hero41 {
+        width: 80%;
+    }
+    .button2-hero41 {
+        width: 80%;
+    }
+}
+
+
+/* hero41 */
+
+
+/* hero51 */
+
+.all-boxs-hero51 {
+    padding: 0px;
+    margin: 0px auto;
+    background-color: #3D3C3C;
+}
+
+.boxs-hero51 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0;
+}
+
+.box-hero51 {
+    flex: 1;
+    /*border: 1px solid #666;*/
+    margin: 0px;
+    padding: 10px;
+    height: 600px;
+    transition: 0.3s;
+}
+
+.box-hero51:first-child {
+    margin-left: 0;
+    padding-left: 50px;
+}
+
+.main-heading-hero51 {
+    font-size: 45px;
+    color: white;
+    margin-top: 120px;
+}
+
+.txt-typE-hero51 {
+    color: #FDA759;
+}
+
+.main-tagline-hero51 {
+    color: #FDA759;
+    margin-top: 10px;
+}
+
+.main-para-hero51 {
+    color: white;
+    margin-top: 10px;
+}
+
+.button-hero51 {
+    height: 40px;
+    width: 120px;
+    background-color: #4A93FF;
+    color: white;
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-hero51:hover {
+    background-color: #227aff;
+    transition: 0.3s;
+}
+
+.main-social-hero51 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.main-social-hero51,
+.social-1-hero51,
+.social-2-hero51,
+.social-3-hero51,
+.social-4-hero51,
+.social-5-hero51 {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-1-hero51:hover {
+    color: #8F40C0;
+    transition: 0.3s;
+}
+
+.social-2-hero51:hover {
+    color: #5485E9;
+    transition: 0.3s;
+}
+
+.social-3-hero51:hover {
+    color: #00ACEE;
+    transition: 0.3s;
+}
+
+.social-4-hero51:hover {
+    color: #BC2A8D;
+    transition: 0.3s;
+}
+
+.social-5-hero51:hover {
+    color: #0e76a8;
+    transition: 0.3s;
+}
+
+.ani-hero51,
+.ani7-hero51 {
+    height: 62px;
+    width: 62px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim-hero51;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.ani1-hero51,
+.ani71-hero51 {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim1-hero51;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.ani2-hero51,
+.ani72-hero51 {
+    margin-top: 6%;
+    margin-left: 6%;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2-hero51;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ani3-hero51,
+.ani73-hero51 {
+    margin-top: 8%;
+    margin-left: 8%;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim3-hero51;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.ani4-hero51,
+.ani74-hero51 {
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim4-hero51;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.ani5-hero51,
+.ani75-hero51 {
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    background-color: transparent;
+    animation-name: anim5-hero51;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+    }
+}
+
+@keyframes anim1-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+    }
+}
+
+@keyframes anim2-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+    }
+}
+
+@keyframes anim3-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+    }
+}
+
+@keyframes anim4-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+    }
+}
+
+@keyframes anim5-hero51 {
+    0% {
+        border-color: rgb(84, 115, 255);
+        background-color: rgb(84, 115, 255);
+    }
+    50% {
+        border-color: transparent;
+        background-color: transparent;
+    }
+    100% {
+        border-color: rgb(84, 115, 255);
+        background-color: rgb(84, 115, 255);
+    }
+}
+
+.ani-hero51 {
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+.ani7-hero51 {
+    margin-top: 200px;
+    margin-left: 80%;
+}
+
+
+/* 2nd ani */
+
+.ani6-hero51,
+.ani8-hero51 {
+    height: 62px;
+    width: 62px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2nd-hero51;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.ani61-hero51,
+.ani81-hero51 {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2nd1-hero51;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.ani62-hero51,
+.ani82-hero51 {
+    margin-top: 6%;
+    margin-left: 6%;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2nd2-hero51;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ani63-hero51,
+.ani83-hero51 {
+    margin-top: 8%;
+    margin-left: 8%;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2nd3-hero51;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.ani64-hero51,
+.ani84-hero51 {
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    border: 2px solid white;
+    animation-name: anim2nd4-hero51;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.ani65-hero51,
+.ani85-hero51 {
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    background-color: transparent;
+    animation-name: anim2nd5-hero51;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim2nd-hero51 {
+    0% {
+        border-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+    }
+}
+
+@keyframes anim2nd1-hero51 {
+    0% {
+        border-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+    }
+}
+
+@keyframes anim2nd2-hero51 {
+    0% {
+        border-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+    }
+}
+
+@keyframes anim2nd3-hero51 {
+    0% {
+        border-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+    }
+}
+
+@keyframes anim2nd4-hero51 {
+    0% {
+        border-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+    }
+}
+
+@keyframes anim2nd5-hero51 {
+    0% {
+        border-color: #FDA759;
+        background-color: #FDA759;
+    }
+    50% {
+        border-color: transparent;
+        background-color: transparent;
+    }
+    100% {
+        border-color: #FDA759;
+        background-color: #FDA759;
+    }
+}
+
+.ani6-hero51 {
+    margin-left: 80%;
+    margin-top: -30px;
+}
+
+.ani8-hero51 {
+    margin-top: -100px;
+    margin-left: 25%;
+}
+
+
+/* 2nd ani */
+
+@media screen and (max-width: 980px) {
+    .boxs-hero51 .box-hero51 {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .boxs-hero51 .box-hero51:last-child {
+        flex-basis: 100;
+        margin: 0;
+    }
+    .boxs-hero51 .box-hero51:nth-last-child(2) {
+        margin-right: 0;
+    }
+    .main-heading-hero51 {
+        font-size: 30px;
+    }
+    .main-tagline-hero51 {
+        font-size: 20px;
+    }
+    .main-para-hero51 {
+        font-size: 13px;
+    }
+    .button-hero51 {
+        height: 30px;
+        width: 120px;
+        font-size: 12px;
+    }
+    .main-social-hero51 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .boxs-hero51 .box-hero51 {
+        flex-basis: 100%;
+        margin: 0 0 5px;
+    }
+    .box-hero51:first-child {
+        padding-left: 10px;
+    }
+    .box-hero51:first-child {
+        height: 500px;
+    }
+    .box-hero51:last-child {
+        height: 500px;
+    }
+    .ani-hero51 {
+        margin-top: 13px;
+    }
+    .main-heading-hero51 {
+        text-align: center;
+    }
+    .main-tagline-hero51 {
+        text-align: center;
+    }
+    .main-para-hero51 {
+        text-align: center;
+    }
+    .main-btn-hero51 {
+        width: fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-social-hero51 {
+        text-align: center;
+    }
+    .ani-hero51 {
+        margin-left: 10%;
+    }
+    .ani8-hero51 {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .ani-hero51 {
+        margin-top: 13px;
+    }
+    .ani6-hero51 {
+        margin-left: 70%;
+    }
+    .ani7-hero51 {
+        margin-left: 70%;
+    }
+    .box-hero51:first-child {
+        height: 535px;
+    }
+    .box-hero51:last-child {
+        height: 540px;
+    }
+}
+
+
+/* hero51 */
+
+
+/* Version 1.0 */
